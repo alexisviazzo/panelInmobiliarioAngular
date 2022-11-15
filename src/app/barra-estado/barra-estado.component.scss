@@ -1,0 +1,15 @@
+
+nav{
+    background-color: black;
+    color: #ffff;
+    .menuBarraEstado{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .estadoSesion{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
